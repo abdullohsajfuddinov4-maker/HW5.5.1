@@ -24,4 +24,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('talaba/',include('oquvchi.urls')),
     path('ustoz/',include('ustoz.urls')),
+    path('derector/',include('derector.urls')),
 ]
